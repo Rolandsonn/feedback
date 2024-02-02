@@ -1,5 +1,5 @@
 import { Component } from "react";
-import aplle from "./components";
+import apple from "./components";
 export default class App extends Component {
   state = {
     good: 0,

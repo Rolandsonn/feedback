@@ -1,6 +1,6 @@
 import React from "react";
 
-const aplle = () => {
+const apple = () => {
   return (
     <div>
       <h1>hellooobek</h1>
@@ -8,4 +8,4 @@ const aplle = () => {
   );
 };
 
-export default aplle;
+export default apple;
