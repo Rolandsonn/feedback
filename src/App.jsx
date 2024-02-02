@@ -1,4 +1,6 @@
 import { Component } from "react";
+import Feedback from "./components/Feedback/Feedback";
+import Statistics from "./components/Statistics/Statistics";
 
 export default class App extends Component {
   state = {
@@ -7,6 +9,7 @@ export default class App extends Component {
     bad: 0,
   };
   render() {
+    <Feedback />;
     return <div>App</div>;
   }
 }
