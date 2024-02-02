@@ -1,12 +1,13 @@
-import { Component } from "react";
+import React from "react";
+import Appf from "./components";
 
-export default class App extends Component {
-  state = {
-    good: 0,
-    neutral: 0,
-    bad: 0,
-  };
-  render() {
-    return <div>App</div>;
-  }
-}
+const App = () => {
+  return (
+    <div>
+      <h1>Your Main App</h1>
+      <Appf />
+    </div>
+  );
+};
+
+export default App;
